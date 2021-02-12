@@ -157,3 +157,5 @@ dmypy.json
 *.swp
 *.~
 .directory
+simple-webapp-service.yaml
+simple-webapp.yaml
