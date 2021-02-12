@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simplewebapp
+spec:
+  containers:
+  - name: web
+    image: systemdevformations/simple-webapp
+    ports:
+    - containerPort: 5000
